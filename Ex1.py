@@ -7,12 +7,17 @@ if cantidad <0:
 subtotal = cantidad*Precio_pan
 descuento = 0
 porcentaje = 0
-if cantidad >20 and cantidad <=50:
+
+if cantidad >0 and cantidad <=20:
+    print(subtotal)
+
+
+elif cantidad >20 and cantidad <=50:
     descuento=subtotal*0.10
     descuento_2=subtotal-porcentaje
-    print(F"El precio es: {descuento_2}")
+    print("El precio es:", descuento_2)
     print(F"El descuento es: {descuento}")
-
+    
 elif cantidad >50:
     descuento=subtotal *0.20 
     descuento_1=subtotal-descuento
