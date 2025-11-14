@@ -1,0 +1,2 @@
+Libro = 25000
+LIBRE = O.10
